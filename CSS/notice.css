@@ -1,0 +1,130 @@
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 6px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-container .search-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-container .search-btn:hover {
+    background-color: #45a049;
+}
+
+
+
+  /* Table styling */
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.student-table th, .student-table td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+.student-table th {
+    background-color: #c9d0ec;
+   
+}
+
+.student-table tr:nth-child(even) {
+    background-color: #97bed8;
+}
+
+.student-table tr:hover {
+    background-color: #b1978c;
+}
+
+.student-table .btn {
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.student-table .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.student-table .delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+
+/* Container Styles */
+.container-1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Specific Button Styles */
+.add-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.add-btn:hover {
+    background-color: #45a049;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #da190b;
+}
+
+.edit-btn {
+    background-color: #008CBA;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #007bb5;
+}
+.mt-5{
+    margin-top: 50px;
+}
